@@ -1,0 +1,65 @@
+body{
+  font-family: 'Playfair Display', serif;
+  background: #69efad;
+}
+
+.header{
+  padding: 30;
+  margin: 0;
+  display: flex;
+}
+
+.title{
+  font-weight: normal;
+  font-size: 75;
+  margin-top: -20;
+}
+
+.menu_element{
+    display: inline-block;
+    vertical-align: middle;
+
+    background: #2bbc7d;
+    border-radius: 14px;
+    background-position: right;
+
+    margin-left: 20;
+    margin-right: 20;
+
+    width: 195;
+    height: 50;
+
+}
+
+.menu{
+  margin-left: 100;
+  list-style-type: none;
+  margin-right: 0;
+  margin-left: auto;
+  display: flex;
+  display: table;
+}
+
+.menu li{
+  display: flex;
+  width: 195;
+  height: 50;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.menu a{
+  font-size: 27;
+  padding-top:0;
+  text-decoration: none;
+  color: black;
+}
+
+.menu a :visited{
+  color: black;
+}
+
+.menu a :active{
+  color: black;
+}

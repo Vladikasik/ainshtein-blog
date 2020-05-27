@@ -1,0 +1,29 @@
+body{
+  font-family: 'Playfair Display', serif;
+}
+
+.main-container{
+
+  background: #000;
+  /* border-radius: 46px; */
+  /* box-shadow: 0 0 100px black; */
+  height: 760;
+  justify-content: center;
+  display: flex;
+}
+
+.mini-title{
+
+  font-size: 60;
+  text-align: center;
+  font-weight: normal;
+  width: 1140;
+
+  margin: 0;
+}
+
+.mini-title h1{
+  font-size: 60;
+  font-weight: normal;
+  margin: 0;
+}
